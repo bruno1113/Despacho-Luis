@@ -1,0 +1,281 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  color: #6E2C00;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+
+.anuncio{
+  font-size: 20px;
+  color:#d90b0b;
+
+}
+
+.servicios{
+width: 500px;
+}
+
+/* botones de servicios despegables inicio */
+
+#div-1,#div-2,#div-3,#div-4,#div-5,#div-6 a:link ,a:active{
+text-decoration: none;
+color: black;
+}
+
+/* .boton{
+background-color: white;
+border-color: #e67e39;
+border-width: 2px;
+font-size: 20px;
+color: black;
+width: 100px;
+height: 40px;
+border-radius: 11%;
+}
+*/
+.boton {
+  background: white;
+  border: solid 2px #e67e39;
+  font-size: 20px;
+  color: black;
+  width: 110px;
+  height: 40px;
+} 
+
+.boton {
+  font-size: 20px;
+  background: white;
+  color: black;
+  
+  transform: translateY(0);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  
+  --dur: .15s;
+  --delay: .15s;
+  --radius: 16px;
+  
+  transition:
+    border-top-left-radius var(--dur) var(--delay) ease-out,
+    border-top-right-radius var(--dur) calc(var(--delay) * 2) ease-out,
+    border-bottom-right-radius var(--dur) calc(var(--delay) * 3) ease-out,
+    border-bottom-left-radius var(--dur) calc(var(--delay) * 4) ease-out,
+    box-shadow calc(var(--dur) * 4) ease-out,
+    transform calc(var(--dur) * 4) ease-out,
+    background calc(var(--dur) * 4) steps(4, jump-end);
+}
+
+.boton:hover,
+.boton:focus {
+  transform: translateY(-4px);
+  background: #e67e39;
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+}
+
+/* .boton:hover{
+background-color: #e67e39;
+color: black;
+transition: 1s;
+} */
+
+/* botones de servicios despegables inicio */
+
+
+.sub-boton{
+border-color:  #eca093 ;
+background-color: white;
+}
+
+.sub-boton:hover{
+background-color: #eca093;
+border-color: #eca093;
+transition: 1s;
+}
+
+/* lista de servicios con precios inicio */
+
+
+.sublista-1{
+text-align: left;
+}
+
+#div-interno1{
+text-align: left;
+}
+
+.sublista-2{
+text-align: left;
+}
+
+#div-interno2{
+text-align: left;
+}
+
+.sublista-3{
+text-align: left;
+}
+
+#div-interno3{
+text-align: left;
+}
+
+.sublista-4{
+text-align: left;
+}
+
+#div-interno4{
+text-align: left;
+}
+
+.sublista-5{
+text-align: left;
+}
+
+#div-interno5{
+text-align: left;
+}
+
+.sublista-6{
+text-align: left;
+}
+
+#div-interno6{
+text-align: left;
+}
+
+
+/* lista de servicios con precios fin */
+
+
+/* botones de cotizar por WhatsApp inicio */
+
+/* .cotizar{
+border-color: #00ff00;
+border-width: 2px;
+font-size: 20px;
+width: 110px;
+height: 40px;
+border-radius: 11%;
+} */
+
+.cotizar a{
+color: black;
+margin-left: 5px;
+}
+
+.link:hover{
+color: black;
+}
+
+/* .cotizar:hover{
+background-color: #00ff00;
+transition: 1s;
+} */
+
+.cotizar a:link , a:active{
+text-decoration: none;
+}
+
+
+.cotizar {
+  background: white;
+  border: solid 2px #00ff00;
+  font-size: 20px;
+  color: black;
+  width: 115px;
+  height: 40px;
+} 
+
+.cotizar {
+  font-size: 20px;
+  background: white;
+  color: black;
+  
+  transform: translateY(0);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  
+  --dur: .15s;
+  --delay: .15s;
+  --radius: 16px;
+  
+  transition:
+    border-top-left-radius var(--dur) var(--delay) ease-out,
+    border-top-right-radius var(--dur) calc(var(--delay) * 2) ease-out,
+    border-bottom-right-radius var(--dur) calc(var(--delay) * 3) ease-out,
+    border-bottom-left-radius var(--dur) calc(var(--delay) * 4) ease-out,
+    box-shadow calc(var(--dur) * 4) ease-out,
+    transform calc(var(--dur) * 4) ease-out,
+    background calc(var(--dur) * 4) steps(4, jump-end);
+}
+
+.cotizar:hover,
+.cotizar:focus {
+  transform: translateY(-4px);
+  background: #00ff00;
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+}
+
+
+
+
+
+
+
+
+
+/* botones de cotizar por WhatsApp fin */
+
+.parpadeo {
+
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name:parpadeo;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo{  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {  
+  0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+.soporte:link ,.soporte:active{
+  text-decoration: none;
+  color: white;
+}
