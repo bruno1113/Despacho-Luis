@@ -138,3 +138,67 @@ h2{
     text-decoration: none;
     color: white;
   }
+
+/* certificados */
+
+.certificados{
+    border-width: 0px 0px 8px 0px;
+    border-style: double;
+    border-color: gray;
+    width: 95%;
+}
+
+.certificados p{
+    font-size: 12px;
+    text-align: justify;
+}
+
+.certificados{
+    text-align: left;
+    font-size: 18px;
+    color: black;
+}
+
+.certificados{
+    border-width: 0px 0px 8px 0px;
+    border-style: double;
+    border-color: gray;
+    width: 95%;
+}
+
+.certificados p{
+    font-size: 17px;
+    text-align: center;
+}
+
+/* cursos */
+
+.cursos{
+    border-width: 0px 0px 8px 0px;
+    border-style: double;
+    border-color: gray;
+    width: 95%;
+}
+
+.cursos p{
+    font-size: 12px;
+    text-align: justify;
+}
+
+.cursos{
+    text-align: left;
+    font-size: 18px;
+    color: black;
+}
+
+.cursos{
+    border-width: 0px 0px 8px 0px;
+    border-style: double;
+    border-color: gray;
+    width: 95%;
+}
+
+.cursos p{
+    font-size: 17px;
+    text-align: center;
+}
